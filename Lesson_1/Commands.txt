@@ -1,0 +1,7 @@
+sudo apt update 
+sudo apt install perl make gcc -y
+sudo mount /dev/cdrom /mnt
+cd /mnt
+sudo ./VBoxLinuxAdditions.run.cd
+sudo apt upgrade -y
+sudo reboot 
